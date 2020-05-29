@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Magic Eight Ball</h1>
+      </header>
+      <main>
+        <p id="form-heading">What will your future look like?</p>
+        <form action="script.js" method="POST" id="question">
+          <label for="question">Please ask question here</label>
+          <br>
+          <input id="quesion" type="text" name="user-question" value="Magic Eight ball..."> 
+          <br>
+          <input type="submit" name="Submit">
+          </form>
+        <div id="eightball">
+          <p id="answer">I say...</p>
+        </div>
+        </main>
+  </body>
+</html>
