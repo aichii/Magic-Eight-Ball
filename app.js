@@ -19,6 +19,8 @@ let randomNumber = Math.floor(Math.random() * 8)
 
 let eightBall = randomNumber
 
+function eightBallResponses () = {
+
 if (randomNumber == 0) {
   console.log('It is certain')
 }
@@ -47,3 +49,13 @@ else if (randomNumber == 8) {
   console.log('It is decidedly so')
 }
 console.log(eightBall) ;
+}
+
+// let button = document.querySelector('button');
+// let answer = document.querySelector('#answer');
+
+//add a click event to the submit button
+
+button.addEventListener('click', function (){
+   eightBallResponses ();
+})
